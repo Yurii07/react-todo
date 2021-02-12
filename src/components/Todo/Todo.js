@@ -101,7 +101,9 @@ const Todo = ({ tasks, filters, changeFilter, config, darkModeAction, addTask })
                     darkMode={darkMode}/>
 
                 <div>
-                    <p><img style={{ width: '70px' }} alt="React Logo" src="/logo192.png"/></p>
+                    <p><img style={{ width: '70px' }} alt="React Logo"
+                            src={process.env.PUBLIC_URL + '/logo192.png'}
+                    /></p>
                     <h1>Add new Todo</h1>
                 </div>
 
